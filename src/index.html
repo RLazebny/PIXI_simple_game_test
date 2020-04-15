@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIXI simple game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="statisticsWrapper">
+        <div class="current">Number of current shapes: <span id="numberOfShapes"></span></div>
+        <div class="current">Occupied by shapes (px*2): <span id="occupiedSquare"></span></div>
+    </div>
+</div>
+
+
+<div class="controls">
+    <div class="container">
+        <div class="label">Gravity value</div>
+        <button class="controller decrease" id="decGrav">-</button>
+        <span id="gravValue"></span>
+        <button class="controller increase" id="incGrav">+</button>
+    </div>
+
+
+    <div class="container">
+        <div class="label">Shapes per second</div>
+        <button class="controller decrease" id="decSpS">-</button>
+        <span id="SpSValue"></span>
+        <button class="controller increase" id="incSpS">+</button>
+    </div>
+
+</div>
+
+<script src="scripts/index.ts"></script>
+
+</body>
+</html>

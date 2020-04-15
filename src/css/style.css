@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  margin: 0 auto;
+  display: block;
+}
+
+.statisticsWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.current {
+  width: 300px;
+}
+.container, .current{
+  text-align: left;
+  margin: 15px;
+}
+
+.controls{
+  display: flex;
+  justify-content: space-around;
+}
+
+.label{
+  margin: 5px;
+}
+
+.controller {
+  width: 50px;
+  border: 2px solid black;
+  background: none;
+  font-size: x-large;
+  font-weight: bold;
+  color: blue;
+  outline: none;
+}
+
+.decrease {
+  border-radius: 10px 0 0 10px;
+}
+
+.increase {
+  border-radius:  0 10px 10px 0;
+}
